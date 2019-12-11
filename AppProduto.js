@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var Produto_1 = require("./Produto");
+var pr1;
+var pr2;
+pr1 = new Produto_1.Produto(1, "Pote", "Pote TupperWare com capacidade de 300g", 28.00, 32, "url//linkdafoto.com");
+pr2 = new Produto_1.Produto(2, "Garrafa", "Garrafa termica de 2 Litros", 80.00, 56, "url//linkdagarrafa.com");
+pr1.mostra();
+pr2.mostra();
+console.log(pr1);
+console.log(pr2);
